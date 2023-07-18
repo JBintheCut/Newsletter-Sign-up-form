@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Sign up form -->
+    <main id="container">
+        <div class="signup-form">
+            <h1 class="update-header">Stay Updated!</h1>
+            <p class="join">Join 60,000+ product manageers receiving monthly updates on:</p>
+            <div class="list">
+                <ul>
+                    <li><img class="list-check" src="icon-success.svg" alt=""> Product discovery and building what matters</li>
+                    <br>
+                    <li><img class="list-check" src="icon-success.svg" alt=""> Measuring to ensure updates are a success</li>
+                    <br>
+                    <li><img class="list-check" src="icon-success.svg" alt=""> And much more!</li>
+                </ul>
+            </div>
+            <div class="signup-input">
+                <div class="alert-space"><h2 class="normal-state">Email address</h2> <h2 id="alert-state">Valid email required</h2></div>
+                <input id="email" type="text" placeholder="email@company.com" spellcheck="false">
+                <button id="subscribe">Subscribe to monthly newsletter</button>
+            </div>
+        </div>
+        <img class="illustration" src="illustration-sign-up-desktop.svg" alt="">
+    </main>
+
+    <div id="success">
+        <img class="success-check" src="icon-success.svg" alt="">
+        <h1 class="thanks-header">Thanks for subscribing!</h1>
+        <p class="confirmation">A confirmation email has been sent to <span id="input-email">ash@dhjdjhfaklhj.com</span>. Please open it and click the button inside to confirm your subscription.</p>
+        <button id="dismiss">Dismiss message</button>
+    </div>
+</body>
+</html>
